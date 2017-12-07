@@ -40,6 +40,12 @@ Some common used python tool for text pre-processing and NLP tools, including ch
 	For example, `python Preprocessing.py -i input.txt -o output.txt -a`.  
 	We also provide sample code(demo function) in `Preprocessing.py`.
 
+### NLP tool
+1. word2vec
+	Just a example of how to use word2vec in `gensim`.
+	You can reference the code of `word2vec.py` to train a new model and test it. I reference this [website](http://zake7749.github.io/2016/08/28/word2vec-with-gensim/) 
+
+
 ## To Do
 1. More preprocessing tool, like parse tree, basic statistics, etc.
 2. Some example of NLP tools, like word2vec, sent2vec, topic model, etc.
