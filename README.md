@@ -5,6 +5,7 @@ Some common used python tool for text pre-processing and NLP tools, including ch
 1. jibea : `pip install jieba`
 2. opencc for python, download from [link](https://github.com/yichen0831/opencc-python)
 3. NLTK : `pip install nltk`
+4. gensim : `pip install gensim`
 
 ## Usage
 ### Prerocessing
@@ -41,11 +42,16 @@ Some common used python tool for text pre-processing and NLP tools, including ch
 	We also provide sample code(demo function) in `Preprocessing.py`.
 
 ### NLP tool
-1. word2vec  
-	Just a example of how to use word2vec in `gensim`.
+1. Word2Vec  
+	Just a example of how to use wWrd2Vec in `gensim`.
+	Word2Vec used to find similar opinion word and word clustering.
 	You can reference the code of `word2vec.py` to train a new model and test it. I reference this [website](http://zake7749.github.io/2016/08/28/word2vec-with-gensim/).
 	If you need a pre-trained model for english, you can use the [model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) trained by google.
+2. Doc2Vec  
+	Just a example of how to use Dord2Vec in `gensim`.  
+	Doc2Vec used to implement document clustering, support QA sustem, or find similar opinion sentence.
+	You can reference the code of `doc2vec.py` to train a new model and test it. I reference this [website](https://radimrehurek.com/gensim/models/doc2vec.html).
 
 ## To Do
 1. More preprocessing tool, like parse tree, basic statistics, etc.
-2. Some example of NLP tools, like sent2vec, topic model, etc.
+2. Some example of NLP tools, like topic model, named entity recognition, etc.
